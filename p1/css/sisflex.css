@@ -1,0 +1,45 @@
+/*
+Flexbox Bootstrap Cards.flex-row .card Author : Bryan Willis
+Github Repo: https://github.com/Wordpress-Development/gridstrap
+*/
+
+/* EXAMPLE 1 - BOOTSTRAP FLEXBOX EQUAL HEIGHT THUMBNAILS*/
+    .flex-row.row {
+        display: inline-block;
+        /*fallback*/
+        zoom: 1;
+        /*fallback*/
+        display: flex;
+        flex-wrap: wrap;
+    }
+    .flex-row.row > [class*='col-'] {
+        display: inline-block;
+        /*fallback*/
+        zoom: 1;
+        /*fallback */
+        display: flex;
+        flex-direction: column;
+    }
+    /* Grow card to fill columns height */
+    .flex-row .card, .flex-row .thumbnail {
+        margin-bottom: 20px;
+    }
+    .flex-row .card, .flex-row .thumbnail,.flex-row .caption {
+        display: inline-block;
+        /* fallback */
+        display: flex;
+        zoom: 1;
+        /*fallback */
+        flex: 1 0 auto;
+        flex-direction: column;
+    }
+    /* Grow Text Container */
+    .flex-text {
+        flex-grow: 1;
+    }
+    /* Flex Responsive Image */
+     
+    .flex-row img {
+        width: 100%; height: auto;
+    }
+    

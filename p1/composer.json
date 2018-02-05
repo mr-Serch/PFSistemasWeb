@@ -1,0 +1,6 @@
+{
+    "require": {
+        "delight-im/auth": "^7.2"
+        
+    }
+}

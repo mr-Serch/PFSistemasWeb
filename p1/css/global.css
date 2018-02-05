@@ -1,0 +1,54 @@
+/*---------------------------------------------
+Pleca
+*/
+
+.cabeza {
+
+    background-color: #f2f2f2;
+    border-bottom: 1px solid #eaeaea;
+    text-align: center;
+    }
+    
+    .encabezado-uv {
+        background-color: #03ae4e;
+        position: absolute;
+        top: 0;
+        left: 0;
+        z-index: 1000;
+    }
+    
+    .encabezado-uv a, .encabezado-uv a:hover {
+        background-color: #03ae4e;
+        color: #fff;
+        text-decoration: none;
+    }
+    
+    .encabezado-uv a {
+        color: #fff;
+        letter-spacing: 2px;
+        padding: 1px 3px;
+        font-size: 14px;
+    }
+    
+    /*---------------------------------------------
+    Fichas
+    */
+    .thumbnail .img {
+        background-color: #eee;
+    }
+    .thumbnail .img img {
+        margin-right: auto;
+        margin-left: auto;
+        display: block;
+        max-height: 160px;
+        width: auto;
+    }
+     
+    .btn-group-xs > .btn .badge, .btn-xs .badge {
+        top: -1px;
+        font-size: 11px;
+    }
+    .btn-default.btn-xs .badge {
+        font-size: 12px!important;
+    }
+    
